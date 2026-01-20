@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* Figma Variables */
+
+  /* Spacing */
+  --Font-Size-H1: 64px;
+  --Logosize: 240px;
+  --Padding: 160px;
+  --screenWith: 1440px;
+
+  /* Font */
+  --font-family-Font: DIN Next LT Arabic;
+
+  /* Common Style Variables */
+
+  /* Color */
+  --Blanco: #fff;
+  --color-black: #000;
+  --color-blueviolet: #6e33ff;
+  --color-cornflowerblue-100: #44aeff;
+  --color-cornflowerblue-200: #007cd4;
+  --color-darkblue: #1231b3;
+  --color-darkgray: #b9b3b3;
+  --color-darkslategray: #333e48;
+  --color-firebrick: #b8232f;
+  --color-gray-100: #1b1b1b;
+  --color-gray-200: #001824;
+  --color-gray-300: rgba(255, 255, 255, 0.2);
+  --color-midnightblue-100: #022385;
+  --color-midnightblue-200: #001b6c;
+  --color-orangered-100: #ff6213;
+  --color-orangered-200: #ea4017;
+  --color-royalblue: #0b63ce;
+  --color-slategray: #56728b;
+  --color-whitesmoke-100: #f7f7f7;
+  --color-whitesmoke-200: #e9e9e9;
+  --color-yellowgreen: #8bc037;
+  --Grey-1: #8a8a8a;
+  --White-100: #fafafa;
+
+  /* Gap */
+  --gap-0: 0px;
+  --gap-5: 5px;
+  --gap-8: 8px;
+  --gap-12: 12px;
+  --gap-15: 15px;
+  --gap-16: 16px;
+  --gap-17: 17px;
+  --gap-20: 20px;
+  --gap-24: 24px;
+  --gap-30: 30px;
+  --gap-32: 32px;
+  --gap-40: 40px;
+  --gap-60: 60px;
+  --gap-80: 80px;
+
+  /* Padding */
+  --padding-0: 0;
+  --padding-01: 0px;
+  --padding-1: 1px;
+  --padding-5: 5px;
+  --padding-6: 6px;
+  --padding-10: 10px;
+  --padding-11: 11px;
+  --padding-12: 12px;
+  --padding-15: 15px;
+  --padding-16: 16px;
+  --padding-20: 20px;
+  --padding-22: 22px;
+  --padding-24: 24px;
+  --padding-30: 30px;
+  --padding-38: 38px;
+  --padding-40: 40px;
+  --padding-60: 60px;
+  --padding-80: 80px;
+  --padding-160: 160px;
+  --padding-20_5: 20.5px;
+
+  /* BorderRadius */
+  --br-2: 2px;
+  --br-18: 18px;
+
+  /* Font */
+  --font-epilogue: Epilogue;
+  --font-plus-jakarta-sans: Plus Jakarta Sans;
+
+  /* FontSize */
+  --fs-11: 11px;
+  --fs-12: 12px;
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-20: 20px;
+  --fs-21: 21px;
+  --fs-24: 24px;
+  --fs-26: 26px;
+  --fs-30: 30px;
+  --fs-40: 40px;
+  --fs-48: 48px;
+  --fs-60: 60px;
+  --fs-98: 98px;
+
+  /* Borders */
+  --border-1: 2px solid var(--color-cornflowerblue-200);
+  --border-2: 1px solid var(--Blanco);
+
+  /* Shadows */
+  --text-shadow-1: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+  /* WidthHeights */
+  --height-20: 20px;
+  --height-28: 28px;
+  --height-36: 36px;
+  --height-45: 45px;
+  --height-60: 60px;
+  --height-80: 80px;
+  --height-110: 110px;
+  --height-220: 220px;
+  --height-16_5: 16.5px;
+  --height-317_5: 317.5px;
+  --height-50_8: 50.8px;
+  --min-h-220: 220px;
+  --min-w-260: 260px;
+  --min-w-300: 300px;
+  --min-w-380: 380px;
+  --width-14: 14px;
+  --width-15: 15px;
+  --width-24: 24px;
+  --width-36: 36px;
+  --width-180: 180px;
+  --width-210: 210px;
+  --width-250: 250px;
+  --width-258: 258px;
+
+  /* LineHeights */
+  --lh-98: 98px;
+  --lh-19_2: 19.2px;
+
+  /* LetterSpacings */
+  --ls--0_04: -0.04;
+  --ls--3_5: -3.5px;
+  --ls-2_6: 2.6px;
+
+  /* Opacities */
+  --opacity-0_7: 0.7;
+}
