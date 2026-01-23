@@ -23,7 +23,7 @@
   padding: 29.5px var(--Padding);
   box-sizing: border-box;
   gap: var(--gap-24);
-  min-width: 375px;
+  min-width: var(--min-w-375);
   max-width: 1440px;
 }
 .vector-icon7 {
@@ -60,7 +60,7 @@
 .button17 {
   border: 2px solid var(--color-midnightblue-100);
   padding: var(--padding-5) var(--padding-24);
-  background-color: var(--color-gray-300);
+  background-color: var(--color-gray-400);
   height: var(--height-45);
   backdrop-filter: blur(10px);
   box-sizing: border-box;
@@ -89,7 +89,7 @@
   cursor: pointer;
   border: 0;
   padding: var(--padding-5) var(--padding-11);
-  background-color: var(--color-gray-300);
+  background-color: var(--color-gray-400);
   height: var(--height-45);
   backdrop-filter: blur(10px);
   display: flex;
@@ -124,7 +124,7 @@
   margin: 0 !important;
   bottom: -53px;
   left: -10px;
-  background-color: var(--color-whitesmoke-200);
+  background-color: var(--color-whitesmoke-400);
   z-index: 0;
   flex-shrink: 0;
 }
@@ -159,7 +159,7 @@
   flex-shrink: 0;
   text-align: left;
   font-size: var(--fs-48);
-  color: var(--color-gray-100);
+  color: var(--color-gray-200);
 }
 .retail,
 .soluciones-digitales-para {
@@ -292,7 +292,7 @@
   margin: 0 !important;
   top: 550px;
   left: 40px;
-  background-color: var(--color-royalblue);
+  background-color: var(--color-royalblue-100);
   z-index: 0;
   flex-shrink: 0;
 }
@@ -324,7 +324,7 @@
   position: relative;
   font-size: var(--fs-24);
   line-height: 120%;
-  color: var(--color-gray-100);
+  color: var(--color-gray-200);
   z-index: 0;
 }
 .image-69-icon {
@@ -352,7 +352,7 @@
   margin: 0 !important;
   top: 42px;
   left: 592.5px;
-  background-color: var(--color-blueviolet);
+  background-color: var(--color-blueviolet-200);
   z-index: 0;
   flex-shrink: 0;
 }
@@ -378,7 +378,7 @@
 }
 .frame-child39 {
   width: 115px;
-  height: 40px;
+  height: var(--height-40);
   object-fit: cover;
 }
 .frame-child40 {
@@ -418,7 +418,7 @@
   position: relative;
   font-size: var(--fs-40);
   line-height: 120%;
-  color: var(--color-gray-100);
+  color: var(--color-gray-200);
 }
 .frame-parent42 {
   align-self: stretch;
@@ -579,7 +579,7 @@
   flex-shrink: 0;
 }
 .button-parent2 {
-  background-color: var(--color-gray-200);
+  background-color: var(--color-gray-300);
   padding: var(--padding-60) var(--padding-80);
   gap: var(--gap-40);
   text-align: center;
@@ -610,7 +610,7 @@
   line-height: 110%;
 }
 .escrbenos-para-programaruna {
-  font-size: 32px;
+  font-size: var(--fs-32);
   font-weight: 500;
 }
 .frame-parent46 {
@@ -664,7 +664,7 @@
   min-width: var(--min-w-380);
 }
 .path9413-icon {
-  height: 8.8px;
+  height: var(--height-8_8);
   width: var(--width-15);
   position: relative;
 }
@@ -704,7 +704,7 @@
   align-items: flex-start;
 }
 .frame-parent50 {
-  background-color: var(--color-gray-200);
+  background-color: var(--color-gray-300);
   flex-direction: column;
   padding: 41px 99px;
   gap: 57px;

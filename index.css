@@ -24,7 +24,7 @@
   padding: 29.5px var(--Padding);
   box-sizing: border-box;
   gap: 286px var(--gap-0);
-  min-width: 375px;
+  min-width: var(--min-w-375);
   max-width: 1440px;
 }
 .vector-icon {
@@ -61,7 +61,7 @@
 .button {
   border: 2px solid var(--color-midnightblue-100);
   padding: var(--padding-5) var(--padding-24);
-  background-color: var(--color-gray-300);
+  background-color: var(--color-gray-400);
   height: var(--height-45);
   backdrop-filter: blur(10px);
   box-sizing: border-box;
@@ -90,7 +90,7 @@
   cursor: pointer;
   border: 0;
   padding: var(--padding-5) var(--padding-11);
-  background-color: var(--color-gray-300);
+  background-color: var(--color-gray-400);
   height: var(--height-45);
   backdrop-filter: blur(10px);
   display: flex;
@@ -253,7 +253,7 @@
 .casos-de-exito {
   background-color: var(--color-orangered-100);
   padding: var(--padding-60) var(--padding-160);
-  gap: 45px;
+  gap: var(--gap-45);
   text-align: center;
   font-size: var(--fs-48);
   color: var(--Blanco);
@@ -460,7 +460,7 @@
 .service-1 {
   height: 490.5px;
   flex: 1;
-  background-color: var(--color-darkblue);
+  background-color: var(--color-darkblue-100);
   flex-direction: column;
   min-width: var(--min-w-300);
 }
@@ -506,7 +506,7 @@
   cursor: pointer;
   border: var(--border-2);
   padding: var(--padding-5) var(--padding-24);
-  background-color: var(--color-gray-300);
+  background-color: var(--color-gray-400);
   height: var(--height-45);
   backdrop-filter: blur(10px);
   box-sizing: border-box;
@@ -549,7 +549,7 @@
   cursor: pointer;
   border: var(--border-2);
   padding: var(--padding-5) var(--padding-24);
-  background-color: var(--color-gray-300);
+  background-color: var(--color-gray-400);
   height: var(--height-45);
   backdrop-filter: blur(10px);
   box-sizing: border-box;
@@ -604,7 +604,7 @@
 .service-4 {
   height: 242.5px;
   flex: 1;
-  background-color: var(--color-orangered-200);
+  background-color: var(--color-orangered-300);
   display: flex;
   align-items: flex-start;
   min-width: var(--min-w-300);
@@ -654,7 +654,7 @@
 }
 .nuestros-clientes {
   align-self: stretch;
-  background-color: var(--color-gray-200);
+  background-color: var(--color-gray-300);
   padding: 70px var(--padding-160);
   text-align: center;
   font-size: var(--fs-48);
@@ -777,7 +777,7 @@
 }
 .notas {
   align-self: stretch;
-  background-color: var(--color-gray-200);
+  background-color: var(--color-gray-300);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -799,7 +799,7 @@
 }
 .notas-ms-relevantes-wrapper {
   flex: 1;
-  min-width: 375px;
+  min-width: var(--min-w-375);
 }
 .notas-ms-relevantes {
   width: 1162px;
@@ -822,9 +822,9 @@
 }
 .next-icon,
 .next-icon2 {
-  height: 42.5px;
-  width: 42.5px;
-  border-radius: 50px;
+  height: var(--height-42_5);
+  width: var(--width-42_5);
+  border-radius: var(--br-50);
 }
 .frame-parent18 {
   align-self: stretch;
@@ -1047,7 +1047,7 @@
 .frame-footer,
 .rectangle-div {
   align-self: stretch;
-  background-color: var(--color-gray-200);
+  background-color: var(--color-gray-300);
   z-index: 0;
 }
 .rectangle-div {
@@ -1143,7 +1143,7 @@
 .vector-container {
   cursor: pointer;
   border: 0;
-  padding: var(--padding-10) 14px;
+  padding: var(--padding-10) var(--padding-14);
   background-color: var(--color-darkslategray);
   height: var(--height-36);
   width: var(--width-36);
@@ -1277,7 +1277,7 @@
     display: none;
   }
   .banner-hero-1 {
-    height: auto;
+    height: var(--height-auto);
     padding-left: var(--padding-80);
     padding-top: var(--padding-80);
     padding-right: var(--padding-80);
@@ -1422,7 +1422,7 @@
     box-sizing: border-box;
   }
   .contactanos-para-trabajar {
-    font-size: 38px;
+    font-size: var(--fs-38);
   }
   .escrbenos-para-programar {
     font-size: var(--fs-24);
